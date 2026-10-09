@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-brand-navy: #0A2540;
+    --color-brand-navy-dark: #06182B;
+    --color-brand-navy-surface: #0E3052;
+    --color-brand-navy-light: #F0F5FA;
+    --color-brand-navy-subtle: #E3ECF5;
+    
+    --color-surface-white: #FFFFFF;
+    --color-surface-canvas: #F8FAFC;
+    --color-surface-muted: #F1F5F9;
+    
+    --color-text-primary: #0A192F;
+    --color-text-secondary: #475569;
+    --color-text-muted: #64748B;
+    --color-text-inverse: #FFFFFF;
+    
+    --color-border-subtle: #E2E8F0;
+    --color-border-strong: #CBD5E1;
+    --color-border-navy: #184473;
+
+    --color-accent-amber: #D97706;
+    --color-accent-amber-subtle: #FEF3C7;
+    --color-accent-emerald: #059669;
+    --color-accent-emerald-subtle: #D1FAE5;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Syne', 'Plus Jakarta Sans', system-ui, sans-serif;
+    letter-spacing: -0.025em;
+  }
+}
+
+/* Custom Semantic Utility Classes */
+.bg-brand-navy {
+  background-color: var(--color-brand-navy);
+}
+
+.bg-brand-navy-dark {
+  background-color: var(--color-brand-navy-dark);
+}
+
+.bg-brand-navy-surface {
+  background-color: var(--color-brand-navy-surface);
+}
+
+.bg-brand-navy-light {
+  background-color: var(--color-brand-navy-light);
+}
+
+.text-brand-navy {
+  color: var(--color-brand-navy);
+}
+
+.text-brand-navy-dark {
+  color: var(--color-brand-navy-dark);
+}
+
+.border-brand-navy {
+  border-color: var(--color-brand-navy);
+}
+
+.border-brand-navy-subtle {
+  border-color: var(--color-brand-navy-subtle);
+}
+
+.shadow-corporate {
+  box-shadow: 0 1px 3px 0 rgba(10, 37, 64, 0.05), 0 1px 2px -1px rgba(10, 37, 64, 0.05);
+}
+
+.shadow-corporate-lg {
+  box-shadow: 0 10px 25px -5px rgba(10, 37, 64, 0.08), 0 8px 10px -6px rgba(10, 37, 64, 0.04);
+}
+
+.shadow-corporate-xl {
+  box-shadow: 0 20px 35px -8px rgba(10, 37, 64, 0.12), 0 10px 15px -8px rgba(10, 37, 64, 0.06);
+}
+
+.glow-subtle {
+  box-shadow: 0 0 40px -10px rgba(10, 37, 64, 0.18);
+}

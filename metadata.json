@@ -1,0 +1,6 @@
+{
+  "name": "Nexus Digital - Sites para Hamburguerias",
+  "description": "Seu hambúrguer é irresistível. Seu site também precisa ser. Agência especializada em sites e cardápios de alta conversão para hamburguerias em São Paulo e Brasil.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
